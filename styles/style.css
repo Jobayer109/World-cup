@@ -161,7 +161,9 @@ blogs style start */
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .blog {
