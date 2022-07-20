@@ -1,16 +1,17 @@
-/* font-awesome */
-
-
 /* common font-family */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 
 /* banner content style start */
+main {
+    margin-bottom: 20px;
+}
+
 .banner-container {
     width: 90vw;
 
@@ -63,8 +64,8 @@ body {
 .link-button a {
     text-decoration: none;
     color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+
+    font-weight: 700;
 }
 
 .fa-greater-than {
@@ -77,6 +78,7 @@ banner content style end
 -------------------------- */
 
 /* blogs-container style start */
+/* blog manues style start */
 .blogs-container {
     display: flex;
 
@@ -134,3 +136,152 @@ banner content style end
     font-weight: 700;
     color: white;
 }
+
+#manue-1:hover {
+    color: red;
+}
+
+#manue-2:hover {
+    color: red;
+}
+
+#manue-3:hover {
+    color: black;
+}
+
+/* blog manues style end */
+
+
+/* ----------------------
+blogs style start */
+.blogs-container {
+    width: 90vw;
+    background-color: white;
+    margin: 100px auto;
+    display: flex
+}
+
+.blogs {}
+
+.blog {
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.blog-info img {
+    width: 240px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-info a {
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 70px;
+    margin-top: 10px;
+    padding: 3px 10px;
+    font-weight: 200;
+    color: black;
+    margin-left: 10px;
+}
+
+.blog-info a:hover {
+    color: blue;
+    border-color: blue;
+    background-color: #d5d5f9;
+}
+
+.blog-title {
+    margin-left: 10px;
+    margin: 10px 0 10px 10px;
+}
+
+.blog-rating span {
+    align-items: center;
+    margin-left: 13px;
+
+}
+
+.fa-clock {
+    color: brown;
+    margin-right: 3px;
+    margin-bottom: 15px;
+}
+
+.fa-message {
+    color: brown;
+    margin-right: 3px;
+}
+
+
+
+/* ----------------------
+blogs style end */
+
+/* footer style start */
+.footer {
+    background-color: black;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+    color: white;
+}
+
+hr {
+    width: 60%;
+    color: white;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.footer-options p {
+    margin: 20px;
+    font-size: 10px;
+}
+
+
+.social-icons {
+    text-align: center;
+
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: coral;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.fa-twitter {
+    color: skyblue;
+    font-size: 30px;
+}
+
+/* footer style end */
