@@ -154,7 +154,7 @@ blogs style start */
 .match-container {
     width: 85%;
     background-color: white;
-    margin: 100px auto;
+    margin: 150px auto 50px auto;
     display: flex;
 }
 
@@ -200,10 +200,26 @@ blogs style start */
 /* ----------------------
 blogs style end */
 
+/* view all button style */
+.view-all-Link-button {
+    background-color: orange;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 760px;
+    /* visibility: hidden; */
+}
+
+
+
 /* footer style start */
 .footer {
     background-color: black;
-    margin-top: 40px;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
 }

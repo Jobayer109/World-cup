@@ -230,17 +230,15 @@ blogs style end */
 .view-all-Link-button {
     background-color: red;
     padding: 7px 20px;
-    border: 1px solid black;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
     color: white;
     font-size: 20px;
+    font-weight: 700;
     margin-left: 760px;
-    visibility: hidden;  
+    /* visibility: hidden; */
 }
-
-.view-all-Link-button a {}
 
 /* footer style start */
 .footer {
