@@ -98,7 +98,7 @@ banner content style end
 }
 
 #manue-1 {
-    background-color: #fff;
+    background-color: red;
     border-radius: 5px;
     box-sizing: border-box;
     width: 200px;
@@ -106,7 +106,7 @@ banner content style end
     padding: 10px 20px;
     text-align: center;
     font-weight: 700;
-    color: black;
+    color: white;
 }
 
 #manue-2 {
@@ -123,7 +123,7 @@ banner content style end
 }
 
 #manue-3 {
-    background-color: red;
+    background-color: white;
     border-radius: 5px;
     box-sizing: border-box;
     width: 200px;
@@ -131,11 +131,11 @@ banner content style end
     padding: 10px 20px;
     text-align: center;
     font-weight: 700;
-    color: white;
+    color: black;
 }
 
 #manue-1:hover {
-    color: red;
+    color: black;
 }
 
 #manue-2:hover {
@@ -143,8 +143,8 @@ banner content style end
 }
 
 #manue-3:hover {
-    color: black;
-
+    color: red;
+    background-color: white;
 }
 
 /* blog manues style end */
@@ -153,75 +153,47 @@ banner content style end
 /* ----------------------
 blogs style start */
 
-.blogs-container {
+.match-container {
     width: 85%;
     background-color: white;
     margin: 100px auto;
     display: flex;
 }
 
-.blogs {
+.matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    row-gap: 30px;
+    column-gap: 10px;
 }
 
-.blog {
-    margin-left: 20px;
+.match {
+    margin-left: 35px;
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 5px 5px 10px grey;
-    width: 290px
+    width: 280px;
+    text-align: center;
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
 
 
 
-.blog-info img {
-    width: 290px;
-    border-radius: 5px;
-
-}
-
-.blog-info a {
-    text-decoration: none;
-    border: 1px solid grey;
-    border-radius: 5px;
-    width: 70px;
-    margin-top: 10px;
-    padding: 3px 10px;
-    font-weight: 200;
-    color: black;
-    margin-left: 10px;
-}
-
-.blog-info a:hover {
-    color: blue;
-    border-color: blue;
-    background-color: #d5d5f9;
-}
-
-.blog-title {
-    margin-left: 10px;
-}
-
-.blog-rating span {
+.match-vs {
+    display: flex;
     align-items: center;
-    margin-left: 13px;
-
+    justify-content: center;
 }
 
-.fa-clock {
-    color: brown;
-    margin-right: 3px;
-    margin-bottom: 15px;
+.match-vs img {
+    width: 95px;
 }
 
-.fa-message {
-    color: brown;
-    margin-right: 3px;
+.vs {
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
-
 
 /* ----------------------
 blogs style end */
