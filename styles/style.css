@@ -1,0 +1,136 @@
+/* font-awesome */
+
+
+/* common font-family */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* banner content style start */
+.banner-container {
+    width: 90vw;
+
+    border-radius: 10px;
+    background-color: black;
+    margin: 50px auto;
+}
+
+.banner-content {
+    display: flex;
+    padding: 30px 50px 0 50px;
+    justify-content: space-evenly;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.half-width p {
+    color: lightyellow;
+    font-size: 12px;
+    margin-bottom: 30px;
+
+}
+
+.link-button {}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+    padding: 0 50px;
+}
+
+.link-button {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 7px 20px;
+    background-color: red;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.link-button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.fa-greater-than {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+/* -----------------------
+banner content style end
+-------------------------- */
+
+/* blogs-container style start */
+.blogs-container {
+    display: flex;
+
+}
+
+.manues {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.manues a {
+    text-decoration: none;
+
+}
+
+#manue-1 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+#manue-2 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    margin: 25px 0;
+}
+
+#manue-3 {
+    background-color: red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
