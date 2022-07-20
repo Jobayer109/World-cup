@@ -55,7 +55,7 @@ main {
     border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 10px 20px;
-    background-color: red;
+    background-color: orange;
     box-sizing: border-box;
     align-items: center;
 
@@ -63,7 +63,7 @@ main {
 
 .link-button a {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
     font-weight: 700;
 }
 
@@ -96,7 +96,7 @@ banner content style end
 }
 
 #manue-1 {
-    background-color: red;
+    background-color: orange;
     border-radius: 5px;
     box-sizing: border-box;
     width: 200px;
@@ -194,6 +194,8 @@ blogs style start */
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
 
 /* ----------------------
 blogs style end */
