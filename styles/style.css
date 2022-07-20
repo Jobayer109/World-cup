@@ -16,11 +16,9 @@ main {
 
 .banner-container {
     width: 85%;
-    height: 500px;
-
     border-radius: 10px;
     background-color: black;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .banner-content {
@@ -156,7 +154,7 @@ blogs style start */
 .blogs-container {
     width: 85%;
     background-color: white;
-    margin: 100px auto;
+    margin: 150px auto;
     display: flex;
 }
 
