@@ -16,6 +16,7 @@ main {
 
 .banner-container {
     width: 85%;
+    height: 500px;
     border-radius: 10px;
     background-color: black;
     margin: 100px auto;
@@ -46,9 +47,8 @@ main {
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
     padding: 0 50px;
-    transition: ;
 }
 
 .link-button {
@@ -69,6 +69,18 @@ main {
 .fa-greater-than {
     font-size: 20px;
     padding-left: 5px;
+}
+
+.player-image {
+    width: 370px;
+    height: 470px;
+    transition: ease 3s;
+    transform: translateX(-100px);
+    transform-origin: top left;
+}
+
+.banner-container:hover .player-image {
+    width: 475px;
 }
 
 /* -----------------------
@@ -297,3 +309,11 @@ hr {
 }
 
 /* footer style end */
+
+/* media-query start  */
+@media only screen and (min-width 576px) and (max-width 992px) {
+    .banner-container {
+        width: 100%;
+
+    }
+}

@@ -69,6 +69,18 @@ main {
     padding-left: 5px;
 }
 
+.player-image {
+    width: 400px;
+    height: 470px;
+    transition: ease 3s;
+    transform: translateX(-100px);
+
+}
+
+.banner-container:hover .player-image {
+    width: 470px;
+}
+
 /* -----------------------
 banner content style end
 -------------------------- */
