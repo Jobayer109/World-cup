@@ -1,7 +1,7 @@
 /* common font-family */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    /* background-color: #2d2a2a; */
     margin: 0;
     padding: 0;
 }
@@ -68,13 +68,12 @@ main {
 
 .link-button:hover {
     background-color: orangered;
-    border: 2px solid white;
+    border: 1px solid white;
 
 }
 
 .link-button a:hover {
     color: black;
-
 }
 
 .fa-greater-than {
@@ -176,7 +175,7 @@ blogs style start */
 .blogs-container {
     width: 85%;
     background-color: white;
-    margin: 150px auto 50px auto;
+    margin: 150px auto 30px auto;
     display: flex;
 }
 
@@ -193,13 +192,13 @@ blogs style start */
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 5px 5px 10px grey;
-    width: 290px
+    width: 250px
 }
 
 
 
 .blog-info img {
-    width: 290px;
+    width: 250px;
     border-radius: 5px;
 
 }
@@ -217,9 +216,9 @@ blogs style start */
 }
 
 .blog-info a:hover {
-    color: blue;
+    color: black;
     border-color: blue;
-    background-color: #d5d5f9;
+    background-color: #f5684f;
 }
 
 .blog-title {
@@ -252,6 +251,7 @@ blogs style end */
 /* view all button style */
 .view-all-Link-button {
     background-color: red;
+    border: 1px solid red;
     padding: 7px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -259,8 +259,14 @@ blogs style end */
     color: white;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 760px;
-    visibility: hidden;
+    font-family: 'Lucida Sans';
+    margin-left: 700px;
+}
+
+.view-all-Link-button:hover {
+    border: 1px solid orange;
+    background-color: black;
+    color: orange;
 }
 
 /* footer style start */

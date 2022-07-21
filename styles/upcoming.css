@@ -64,6 +64,16 @@ main {
     font-weight: 700;
 }
 
+.link-button:hover {
+    background-color: orangered;
+    border: 1px solid white;
+
+}
+
+.link-button a:hover {
+    color: black;
+}
+
 .fa-greater-than {
     font-size: 20px;
     padding-left: 5px;
@@ -96,6 +106,8 @@ banner content style end
     justify-content: center;
     align-items: center;
     background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .manues a {
@@ -162,9 +174,10 @@ blogs style start */
 
 .match-container {
     width: 85%;
-    background-color: white;
-    margin: 150px auto 50px auto;
+    background-color: #ffffff;
+    margin: 150px auto 10px auto;
     display: flex;
+    padding: 50px;
 }
 
 .matches {
@@ -181,7 +194,7 @@ blogs style start */
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 5px 5px 10px grey;
-    width: 280px;
+    width: 240px;
     text-align: center;
     padding: 20px 30px;
     box-sizing: border-box;
@@ -196,7 +209,7 @@ blogs style start */
 }
 
 .match-vs img {
-    width: 95px;
+    width: 75px;
 }
 
 .vs {
@@ -218,11 +231,16 @@ blogs style end */
     text-align: center;
     color: black;
     font-size: 20px;
-    font-weight: 700;
-    margin-left: 760px;
-    /* visibility: hidden; */
+    font-weight: 500;
+    font-family:'Lucida Sans';
+    margin-left: 700px;
+    border: 1px solid black;
 }
-
+.view-all-Link-button:hover {
+    border: 1px solid orange;
+    background-color: black;
+    color: orange;
+}
 
 
 /* footer style start */
