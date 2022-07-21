@@ -84,15 +84,15 @@ main {
 }
 
 .player-image {
-    width: 400px;
+    width: 500px;
     height: 470px;
     transition: ease 3s;
-    transform: translateX(-100px);
-
+    /* transform: translateX(-100px); */
+    transform-origin: top left;
 }
 
 .banner-container:hover .player-image {
-    width: 470px;
+    width: 475px;
 }
 
 /* -----------------------
