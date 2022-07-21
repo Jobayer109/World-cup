@@ -10,8 +10,6 @@ body {
 /* banner content style start */
 main {
     margin-bottom: 20px;
-
-
 }
 
 .banner-container {
@@ -48,7 +46,6 @@ main {
 .half-width img {
     width: 80%;
     padding: 0 50px;
-    transition: ;
 }
 
 .link-button {
