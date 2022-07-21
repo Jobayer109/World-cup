@@ -35,6 +35,10 @@ main {
     margin-bottom: 0;
 }
 
+.heading-color {
+    color: red;
+}
+
 .half-width p {
     color: lightyellow;
     font-size: 12px;
@@ -67,13 +71,13 @@ main {
 }
 
 .link-button:hover {
-    background-color: orangered;
+    background-color: black;
     border: 1px solid white;
 
 }
 
 .link-button a:hover {
-    color: black;
+    color: red;
 }
 
 .fa-greater-than {
@@ -257,7 +261,7 @@ blogs style end */
     text-decoration: none;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 700;
     font-family: 'Lucida Sans';
     margin-left: 700px;

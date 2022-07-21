@@ -32,6 +32,10 @@ main {
     margin-bottom: 0;
 }
 
+.heading-color {
+    color: orange;
+}
+
 .half-width p {
     color: lightyellow;
     font-size: 12px;
@@ -65,13 +69,13 @@ main {
 }
 
 .link-button:hover {
-    background-color: orangered;
+    background-color: black;
     border: 1px solid white;
 
 }
 
 .link-button a:hover {
-    color: black;
+    color: orange;
 }
 
 .fa-greater-than {
@@ -230,17 +234,13 @@ blogs style end */
     text-decoration: none;
     text-align: center;
     color: black;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 500;
-    font-family:'Lucida Sans';
+    font-family: 'Lucida Sans';
     margin-left: 700px;
     border: 1px solid black;
 }
-.view-all-Link-button:hover {
-    border: 1px solid orange;
-    background-color: black;
-    color: orange;
-}
+
 
 
 /* footer style start */
