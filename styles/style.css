@@ -66,6 +66,17 @@ main {
     font-weight: 700;
 }
 
+.link-button:hover {
+    background-color: orangered;
+    border: 2px solid white;
+
+}
+
+.link-button a:hover {
+    color: black;
+
+}
+
 .fa-greater-than {
     font-size: 20px;
     padding-left: 5px;
@@ -309,11 +320,3 @@ hr {
 }
 
 /* footer style end */
-
-/* media-query start  */
-@media only screen and (min-width 576px) and (max-width 992px) {
-    .banner-container {
-        width: 100%;
-
-    }
-}
